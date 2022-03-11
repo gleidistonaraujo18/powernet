@@ -1,0 +1,250 @@
+#header {
+    background: #fff;
+    transition: all 0.5s;
+    text-align: center;
+    border: solid px red;
+    border-radius: 5px;
+    z-index: 996;
+    padding: 20px 40px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+  }
+  @media (max-width: 992px) {
+    #header {
+      padding: 2% 0;
+    }
+  }
+
+
+ 
+  #header.header-scrolled {
+    top: -40px;
+  }
+
+  #header i {
+    padding-right: 6px;
+    line-height: 0;
+  }
+
+  
+  .logo {
+    position: absolute;
+    top: 8px;
+    max-height: 70px;
+}
+@media(max-width: 768px) {
+  .logo {
+    height: 2%;
+  }
+}
+
+
+  
+.logo img {
+    display: inline;
+    
+    margin: 0 0 0 15px;
+    max-height: 55px;
+}
+  .nav {
+    text-align: center;
+  }
+ 
+
+  .appointment-btn {
+    
+    background: #dc1c23;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 30px;
+    transition: 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+    
+  }
+  
+  .appointment-btn:hover {
+      
+    background: #fff;
+    color: #dc1c23;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #dc1c23;
+    
+  }
+  
+  
+  .img-topo{
+    border: 0px solid red;
+    margin-top: 5%;
+    height: 500px;
+    
+    
+  }
+
+    .container div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 20px;
+    border: 0px solid red;
+    margin-top: 4%;
+    
+    
+  }
+
+ .container p {
+    border: 0px solid red;
+    font-size: 20px;
+    font-family: montserrat,sans-serif;
+  }
+
+  .container img {
+    border: 0px solid red;
+    
+  }
+
+  .botao-container {
+    display: flex;
+    position: relative;
+    bottom: 658px;
+    right: 21.5%;
+    font-size: 20px;
+
+  }
+  
+
+  .botao-container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #dc1c23;
+    border-radius: 5px;
+    padding: 10px 85px;
+    border: 1px solid #dc1c23;
+    
+  }
+
+  .botao-container a:hover {
+    color: #fff;
+    background-color: #dc1c23;
+    border-radius: 5px
+
+  }
+
+  .botao-container1 {
+    display: flex;
+    position: relative;
+    bottom: 39%;
+    left: 21%;
+    font-size: 20px;
+    
+
+  }
+  
+
+  .botao-container1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #dc1c23;
+    border-radius: 5px;
+    padding: 10px 55px;
+    border: 1px solid #dc1c23;
+    
+  }
+
+  .botao-container1 a:hover {
+    color: #fff;
+    background-color: #dc1c23;
+    border-radius: 5px
+
+  }
+  
+
+#page-content {
+  
+  background-color: #dc1c23;
+  width: 200%;
+  
+}
+
+#page-content h1 {
+  position: relative;
+  bottom: 120%;
+  right: 400px;
+}
+
+
+
+#botoes {
+  margin-top: 1%;
+}
+
+#botoes div {
+  margin: -10px -7%;
+
+}
+
+
+#botoes a {
+  background-color: hsl(358, 77%, 49%);
+  padding: 40px 70px ;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+#botoes a:hover {
+  background-color: #fff;
+  color: #dc1c23;
+  border: 2px solid #dc1c23;
+  border-radius: 5px;
+}
+
+.localidade h1 {
+  position: relative;
+  margin-top: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.informacao {
+  position: relative;
+  margin-top: 10%;
+  left: 25%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.whatsapp {
+  
+  position: relative;
+  margin-top: 4%;
+  left: 25%;
+}
+
+.whatsapp h2 {
+
+}
+
+.whatsapp img {
+  
+  width: 70px;
+}
+
+.whatsapp-link a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  left: 75px;
+  bottom: 65px;
+  
+}
+
